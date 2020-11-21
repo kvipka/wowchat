@@ -179,7 +179,7 @@ class MessageResolverWotLK(jda: JDA) extends MessageResolverTBC(jda) {
     "spell" -> "\\|Htrade:(\\d+):.+?\\|h\\[(.+?)\\]\\|h\\s?".r
   )
 
-  override protected val linkSite = "http://wotlk-twinhead.twinstar.cz"
+  override protected val linkSite = "https://db.at-wow.org"
 }
 
 class MessageResolverCataclysm(jda: JDA) extends MessageResolverWotLK(jda) {
